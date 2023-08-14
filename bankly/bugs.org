@@ -1,0 +1,8 @@
+List of bugs I found
+
+1.  Allows for registration with no username or password 
+2.  When a logged in user posts a get request GET http://localhost:3000/users/name_not_in_databases
+   it shoul return a 404 error. right now it returns a {} object with no properties
+3. on the PATCH route a user should be  allowed to change their own info without being an admin.
+4. on the PATCH only and admin should be able to make another user and admin
+5. no logout mechanism?
